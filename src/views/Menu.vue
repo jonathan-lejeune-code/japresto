@@ -5,9 +5,7 @@
     <v-content>
       <Paralogo />
 
-      <MainHome />
-
-      <BackHome />
+      <MenuCard />
     </v-content>
     <Footer />
   </v-app>
@@ -16,13 +14,12 @@
 <script>
 import Header from "../components/Header.vue";
 import Paralogo from "../components/Paralogo.vue";
-import MainHome from "../components/MainHome.vue";
-import BackHome from "../components/BackHome.vue";
+import MenuCard from "../components/MenuCard.vue";
 import Footer from "../components/Footer.vue";
 export default {
-  name: "Home",
+  name: "Menu",
 
-  components: { Header, Paralogo, MainHome, BackHome, Footer },
+  components: { Header, Paralogo, MenuCard, Footer },
   data() {
     return {};
   },
