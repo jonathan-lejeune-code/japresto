@@ -23,6 +23,7 @@
                     <div class="headline">Produit frais</div>
                   </v-card-title>
                   <v-img
+                    class="headshot"
                     src="https://media.istockphoto.com/photos/salmon-sashimi-picture-id185319629?k=20&m=185319629&s=612x612&w=0&h=Pt5iG5f4I9UYfRf2DlWml5v4zj6LA5jsrQjuKawGj-o="
                     alt="image sushi"
                     height="300"
@@ -45,6 +46,7 @@
                     <div class="headline">Préparation sur place</div>
                   </v-card-title>
                   <v-img
+                    class="headshot"
                     src="https://thumbs.dreamstime.com/b/male-person-cooking-sushi-japanese-food-wooden-table-preparation-process-traditional-asian-cuisine-seafood-delicious-108224976.jpg"
                     alt="image sushi"
                     height="300"
@@ -69,6 +71,7 @@
                     </div>
                   </v-card-title>
                   <v-img
+                    class="headshot"
                     src="https://www.otodoke.fr/wp-content/uploads/2018/05/japan-feat.jpg"
                     alt="Vuetify.js"
                     height="300"
@@ -110,4 +113,9 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.headshot {
+  border-radius: 50% 10%;
+  border: #d32f2f solid 5px;
+}
+</style>

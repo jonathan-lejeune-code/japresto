@@ -20,7 +20,7 @@
                 style="margin: 20px; width: 300px; height: auto"
               >
                 <v-img
-                  class="img hidden-xs-only"
+                  class="img hidden-xs-only headshot-1"
                   height="200"
                   :src="menu.src"
                 ></v-img>
@@ -60,7 +60,7 @@
                             </v-card-text>
                             <v-card-text
                               style="font-size: 30px"
-                              class="font-weight-black white--text font-italic"
+                              class="font-weight-black white--text font-italic shotprice"
                             >
                               {{ menu.prix }}€
                             </v-card-text>
@@ -200,11 +200,24 @@ export default {
 .title2 {
   width: 300px;
   font-size: 40px;
-  color: red;
+  color: #d32f2f;
   margin: 30px auto 20px auto;
-  border: red solid 4px;
+  border: #d32f2f solid 4px;
   flex-direction: column;
   font-family: "Dancing Script", cursive;
+}
+
+.headshot-1 {
+  border-radius: 10% 60%;
+  border: black solid 5px;
+}
+
+.shotprice {
+  background-color: black;
+  width: 80px;
+  box-shadow: 6px 3px 9px white;
+
+  border-radius: 40% 10%;
 }
 
 .cards {
