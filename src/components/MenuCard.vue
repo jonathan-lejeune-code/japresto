@@ -28,7 +28,7 @@
                 <v-card-title>
                   <div>
                     <div
-                      :class="`headline`"
+                      :class="`headline font-italic`"
                       style="
                         display: flex;
                         flex-wrap: wrap;
@@ -58,6 +58,12 @@
                             >
                               {{ menu.comment }}
                             </v-card-text>
+                            <v-card-text
+                              style="font-size: 30px"
+                              class="font-weight-black white--text font-italic"
+                            >
+                              {{ menu.prix }}€
+                            </v-card-text>
                           </div>
                         </v-expand-transition>
                       </div>
@@ -83,6 +89,7 @@ export default {
         src: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1024,h_682/https://nihonkara.fr/wp-content/uploads/2017/11/Ramen-1024x682.jpg",
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "5",
         show: false,
       },
       {
@@ -91,6 +98,7 @@ export default {
         src: `https://foodscene.deliveroo.fr/assets/images/blogs/foodscene.deliveroo.fr/fr/inspiration-culinaire/1nys62vCPp5vRm3K7XyRnswd1sLWVvrtgbYpj4mXMICs/h_6._japanese_curries.jpg?v=1.01`,
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "7",
         show: false,
       },
       {
@@ -99,6 +107,7 @@ export default {
         src: "https://www.qooq.com/sites/default/files/styles/main_photo/public/externals/2455.jpg?itok=c5MfAA-2",
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "3",
         show: false,
       },
       {
@@ -107,6 +116,7 @@ export default {
         src: "https://allomamantoutvabien.com/wp-content/uploads/2017/02/takoyaki-7-1.jpg",
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "8",
         show: false,
       },
       {
@@ -115,6 +125,7 @@ export default {
         src: "https://www.terres-japonaises.com/app/media/26/files/2016/06/yakitori-japon.jpg",
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "7",
         show: false,
       },
       {
@@ -123,6 +134,7 @@ export default {
         src: "https://www.restaurant-inagiku.fr/wp-content/uploads/2020/12/Assiette-de-sushis-1170x550.jpg",
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "9",
         show: false,
       },
       {
@@ -131,6 +143,7 @@ export default {
         src: "https://www.alvo.be/sites/default/files/styles/large/public/pictures/recipes/japanse-groenteschotel-noodles-kl.jpg?itok=YPY6mA-A",
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "7",
         show: false,
       },
       {
@@ -139,6 +152,7 @@ export default {
         src: "https://www.maspatule.com/blog/wp-content/uploads/2020/01/mise-en-avant-gyoza-1440x1128.jpg",
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "7",
         show: false,
       },
       {
@@ -147,6 +161,7 @@ export default {
         src: "https://files.meilleurduchef.com/mdc/photo/recette/pate-chinois/pate-chinois-800.jpg",
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "7",
         show: false,
       },
       {
@@ -155,6 +170,25 @@ export default {
         src: "https://res.cloudinary.com/serdy-m-dia-inc/image/upload/f_auto/fl_lossy/q_auto:eco/x_0,y_104,w_3840,h_2160,c_crop/w_1200,h_630,c_fill/v1545089694/foodlavie/prod/recettes/soupe-ramen-au-curry-rouge-42123da9",
         comment:
           "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "9",
+        show: false,
+      },
+      {
+        title: " Miso facon Mérope ",
+
+        src: require("../assets/nouillemérope.jpeg"),
+        comment:
+          "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "10",
+        show: false,
+      },
+      {
+        title: " Soupe facon Lucie ",
+
+        src: require("../assets/nouille2.jpeg"),
+        comment:
+          "Lorem ipsum dolor sit amet. Aut nemo distinctio in omnis vitae id animi neque ea iusto corporis et voluptatibus dolor qui nisi cumque. Et fugiat enim id dolorum magni est nobis quasi. Et odit quia non animi cupiditate qui tenetur consequatur. ",
+        prix: "10",
         show: false,
       },
     ],
@@ -166,8 +200,9 @@ export default {
 .title2 {
   width: 300px;
   font-size: 40px;
+  color: red;
   margin: 30px auto 20px auto;
-  border: red solid 3px;
+  border: red solid 4px;
   flex-direction: column;
   font-family: "Dancing Script", cursive;
 }

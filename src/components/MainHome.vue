@@ -23,7 +23,7 @@
                     <div class="headline">Produit frais</div>
                   </v-card-title>
                   <v-img
-                    src="https://i.pinimg.com/originals/63/3b/1b/633b1b9f169bc1e53430d2dffb938a36.jpg"
+                    src="https://media.istockphoto.com/photos/salmon-sashimi-picture-id185319629?k=20&m=185319629&s=612x612&w=0&h=Pt5iG5f4I9UYfRf2DlWml5v4zj6LA5jsrQjuKawGj-o="
                     alt="image sushi"
                     height="300"
                   />
@@ -31,8 +31,7 @@
                     Cras facilisis mi vitae nunc lobortis pharetra. Nulla
                     volutpat tincidunt ornare. Pellentesque habitant morbi
                     tristique senectus et netus et malesuada fames ac turpis
-                    egestas. Nullam in aliquet odio. Aliquam eu est vitae tellus
-                    bibendum tincidunt. Suspendisse potenti.
+                    egestas. Nullam in aliquet odio.
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -51,11 +50,10 @@
                     height="300"
                   />
                   <v-card-text>
-                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla
-                    volutpat tincidunt ornare. Pellentesque habitant morbi
-                    tristique senectus et netus et malesuada fames ac turpis
-                    egestas. Nullam in aliquet odio. Aliquam eu est vitae tellus
-                    bibendum tincidunt. Suspendisse potenti.
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Nullam in aliquet odio.
+                    Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse
+                    potenti.
                   </v-card-text>
                 </v-card>
               </v-flex>
