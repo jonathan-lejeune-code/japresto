@@ -15,7 +15,6 @@
             <v-layout row wrap align-center>
               <v-flex xs12 md4>
                 <v-card class="elevation-0 transparent" height="600">
-                  <v-card-text class="text-xs-center"> </v-card-text>
                   <v-card-title primary-title class="layout justify-center">
                     <v-icon x-large class="red--text text--darken-2"
                       >mdi-home</v-icon
@@ -38,7 +37,6 @@
               </v-flex>
               <v-flex xs12 md4>
                 <v-card class="elevation-0 transparent" height="600">
-                  <v-card-text class="text-xs-center"> </v-card-text>
                   <v-card-title primary-title class="layout justify-center">
                     <v-icon x-large class="red--text text--darken-2"
                       >mdi-knife</v-icon
@@ -61,7 +59,6 @@
               </v-flex>
               <v-flex xs12 md4>
                 <v-card class="elevation-0 transparent" height="600">
-                  <v-card-text class="text-xs-center"> </v-card-text>
                   <v-card-title primary-title class="layout justify-center">
                     <v-icon x-large class="red--text text--darken-2"
                       >mdi-fish</v-icon

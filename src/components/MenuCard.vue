@@ -19,11 +19,7 @@
                 class="white--text"
                 style="margin: 20px; width: 300px; height: auto"
               >
-                <v-img
-                  class="img hidden-xs-only headshot-1"
-                  height="200"
-                  :src="menu.src"
-                ></v-img>
+                <v-img class="headshot-1" height="200" :src="menu.src"></v-img>
 
                 <v-card-title>
                   <div>
@@ -214,7 +210,7 @@ export default {
 
 .shotprice {
   background-color: black;
-  width: 80px;
+  width: 90px;
   box-shadow: 6px 3px 9px white;
 
   border-radius: 40% 10%;
